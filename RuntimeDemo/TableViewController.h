@@ -10,9 +10,10 @@
 
 @interface TableViewController : UITableViewController
 
+///获得传入类的属性/方法/变量
 extern NSString * getClassAttribute(Class cls);
 
-
+///获得传入对象的属性/变量的值
 extern NSString *getObjectValue(id object);
 
 @end
